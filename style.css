@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: rgb(7, 7, 105);
+    color: white;
+    text-transform: capitalize;
+    height: 4rem;
+    text-align: center;
+    align-content: center;
+}
+
+.container {
+    background-color: black;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    height: 10rem;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+#input {
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.3rem;
+}
+
+.btn {
+    padding: 0.3rem 0.4rem;
+    align-content: center;
+    background-color: rgb(236, 253, 1);
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 0.3rem;
+
+    &:hover {
+        background-color: black;
+        color: white;
+
+    }
+}
+
+.element {
+    margin: 1.5rem;
+    width: 15rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
